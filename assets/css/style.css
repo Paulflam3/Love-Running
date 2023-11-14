@@ -1,28 +1,37 @@
+/*Google Fonts Import*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+
 /*Asterisk wild card selector to override default styles added by the browser*/
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /*generic project styles*/
-    color: #3a3a3a
+    color: #3a3a3a;
+
 }
 
+
 /*Header*/
-header{
+header {
     background-color: lightcoral;
 }
+
 /*Main Content*/
 main {
     background-color: lightblue;
     /*make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
 }
+
 /*Footer*/
 footer {
     background-color: orange;
